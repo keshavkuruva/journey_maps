@@ -1,12 +1,33 @@
 .App {
   text-align: center;
 }
+svg {
+  border: 1px solid grey;
+}
 
+line {
+  stroke: steelblue;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
-
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+span {
+  position: absolute;
+  border-radius: 100%;
+  width: 50px;
+  text-align: center;
+  margin-top: 30px;
+  z-index: 2;
+  display: inline-block;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
